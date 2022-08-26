@@ -43,7 +43,7 @@ body {
     justify-items: center;
     justify-content: center;
     padding-bottom: 48px;
-    gap: 48px;
+    gap: 64px;
 }
 .RENAME-ME {
     display: flex;
@@ -57,11 +57,23 @@ body {
     color: #1f2937;
 }
 .quote {
+    color: #1f2937;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote-text {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    color: #1f2937;
-    background-color: #e5e7eb;
+    max-width: 896px;
+    padding-top: 128px;
+}
+.quotee {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 8px 8px 104px 8px;
 }
 .footer {
     display: flex;
