@@ -13,13 +13,19 @@ p {
 button {
     color: white;
     font-weight: 700;
-    padding: 10px;
+    font-size: 16px;
+    padding: 12px 36px;
     background-color: #3882f6; 
-    border: 0;
-    border-radius: 10px;
+    border: #3882f6;
+    border-radius: 8px;
     margin-top: 12px;
+    align-self: flex-start;
 }
 
+.header, .footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
 .header {
     display: flex;
     flex-direction: column;
@@ -36,24 +42,27 @@ button {
 .header a {
     color: #f9faf8;
 }
+.header-content {
+    max-width: 1024px;
+}
+
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    max-width: 1024px;
 }
 .nav-logo {
     font-size: 24px;
     font-weight: 700;
     color: #f9faf8;
 }
+
 .hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    max-width: 1024px;
     margin: 64px 0;
 }
 .hero-desc {
@@ -69,6 +78,10 @@ button {
     color: #f9faf8;
     margin: 0;
 }
+/*.hero img {
+
+}*/
+
 .info {
     display: flex;
     justify-content: center;
@@ -111,6 +124,7 @@ button {
     color: #1f2937;
     gap: 8px;
 }
+
 .quote {
     color: #1f2937;
     background-color: #e5e7eb;
@@ -141,23 +155,11 @@ button {
     padding-right: 128px;
     width: 100%;
 }
+
 .footer {
     font-size: 18px;
     display: flex;
     justify-content: center;
     align-content: center;
     padding: 36px;
-}
-.header, .footer {
-    background-color: #1f2937;
-    color: #f9faf8;
-}
-.test {
-    display: flex;
-    justify-content: center;
-    background-color: bisque;
-    padding: 8px;
-}
-.test-nest {
-    max-width: 1024px;
 }
