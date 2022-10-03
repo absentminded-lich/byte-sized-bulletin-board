@@ -80,6 +80,7 @@ ul {
 }
 .hero img {
     width: 50%;
+    height: auto;
     background-color: #777;
 }
 .hero-desc button {
